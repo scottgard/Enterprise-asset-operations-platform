@@ -116,6 +116,8 @@ Microsoft 365 (Authentication & Security)
 
 <img width="706" height="131" alt="image" src="https://github.com/user-attachments/assets/e52842a9-f234-4dec-b304-2df0beef72a1" />
 
+---
+
 The app is built using a fairly standard Power Platform architecture, but designed with scalability in mind.
 
 Users interact with the Power Apps front end, which connects directly to Dataverse where all the structured data lives.
@@ -130,6 +132,7 @@ Authentication and access are handled through Microsoft 365, keeping everything 
 
 <img width="706" height="131" alt="image" src="https://github.com/user-attachments/assets/b58374d9-8774-444e-ae54-87f21e656472" />
 
+---
 
 The data model is centred around the **Assets** table.
 
@@ -253,15 +256,23 @@ This solution helps organisations:
 ### Screenshots
 See above sections.
 
-### GIF Demonstration
-./images/demo.gif
-
-### Live Walkthrough Video
-_Add link here_
+### Demo Walkthrough
+A quick walkthrough showing asset search, viewing details, and editing.
+<img width="400" height="226" alt="image" src="https://github.com/user-attachments/assets/ff676248-db70-40b6-99b3-934d53cd1d5f" />
 
 ---
 
+
 ## 📁 Project Structure
+
+This project is built within the Microsoft Power Platform, so rather than a traditional codebase, it consists of:
+
+- Power Apps Canvas App (UI & logic)
+- Dataverse Tables (data model)
+- Power Automate Flows (automation)
+- Azure Blob Storage (image handling)
+
+---
 
 ## 👨‍💻 Author
 
@@ -270,3 +281,4 @@ Power Platform Developer
 Azure & Microsoft 365 Enthusiast  
 
 GitHub: https://github.com/scottgard
+
