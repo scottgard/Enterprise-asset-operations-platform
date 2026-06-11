@@ -258,6 +258,7 @@ See above sections.
 
 ### Demo Walkthrough
 A quick walkthrough showing asset search, viewing details, and editing.
+
 <img width="400" height="226" alt="image" src="https://github.com/user-attachments/assets/ff676248-db70-40b6-99b3-934d53cd1d5f" />
 
 ---
